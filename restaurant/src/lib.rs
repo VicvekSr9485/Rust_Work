@@ -1,17 +1,6 @@
-mod front_of_house {
-    pub mod hosting {
-        pub fn add_to_waitlist() {}
+mod front_of_house;
 
-        fn seat_at_table() {}
-    }
-
-    mod serving {
-        fn take_order() {}
-
-        fn serve_order() {}
-
-        fn take_payment() {}
-    }
+pub use crate::front_of_house::hosting;
 
 pub fn eat_at_restaurant() {
     // Absolute path
@@ -30,8 +19,9 @@ pub fn eat_at_restaurant() {
     // to see or modify the seasonal fruit that comes with the meal
     // meal.seasonal_fruit = String::from("blueberries");
 
-    let order1 = back_of_house::Appetizer::Soup;
-    let order2 = back_of_house::Appetizer::Salad;
+    // _ for unused variables
+    let _order1 = back_of_house::Appetizer::Soup;
+    let _order2 = back_of_house::Appetizer::Salad;
 }
 
 fn deliver_order() {}
@@ -62,6 +52,4 @@ mod back_of_house {
     }
 
     fn cook_order() {}
-}
-
 }
