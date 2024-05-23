@@ -18,7 +18,7 @@ fn array_slice() {
     assert_eq!(slice, &[2, 3]);
     println!("Assertion passed");
 }
-
+;p''[]
 
 fn main() {
     let my_string = String::from("hello world");
