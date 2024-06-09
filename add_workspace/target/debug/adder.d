@@ -1,0 +1,1 @@
+/Users/user/rust_work/add_workspace/target/debug/adder: /Users/user/rust_work/add_workspace/add_one/src/lib.rs /Users/user/rust_work/add_workspace/add_two/src/lib.rs /Users/user/rust_work/add_workspace/adder/src/main.rs
