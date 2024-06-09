@@ -6,6 +6,10 @@ pub fn greeting(name: &str) -> String {
     format!("Hello {}!", name)
 }
 
+pub fn add_two(a: i32) -> i32 {
+    a + 2
+}
+
 // test with should_panic
 pub struct Guess {
     value: i32,
@@ -105,9 +109,11 @@ mod tests {
         assert_eq!(10, value);
     }
 
+    /*
     #[test]
     fn this_test_will_fail() {
         let value = prints_and_returns_10(8);
         assert_eq!(5, value);
     }
+    */
 }
