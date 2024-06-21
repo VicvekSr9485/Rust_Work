@@ -1,0 +1,1 @@
+/Users/user/rust_work/state_pattern_oop/target/debug/blog_bin_crate: /Users/user/rust_work/state_pattern_oop/blog_bin_crate/src/main.rs /Users/user/rust_work/state_pattern_oop/blog_lib_crate/src/lib.rs

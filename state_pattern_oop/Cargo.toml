@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "blog_lib_crate",
+    "blog_bin_crate",
+]
